@@ -1,0 +1,84 @@
+@charset "UTF08";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: #EBEBEB;
+    --cor2: #C0C0C0;
+    --cor3: #31557c;
+    --cor4: #003566;
+    --cor5: #002A52;
+    --cor6: #00203D;
+    --cor7: #363020;
+    --cor8: #000000;
+}
+
+#fundo {
+    background-image: linear-gradient(to top, rgb(49, 49, 49), rgb(19, 19, 19));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--cor6);
+    font-size: 1.5em;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.103);
+    padding: 20px;
+    color: white;
+}
+#calculadora {
+    position: absolute;
+    background-color: var(--cor6);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    padding: 4px;
+    border: 1px solid var(--cor3);
+    padding-top: 50px;  
+}
+
+div#calculadora > h2 {
+    font-size: 0.9em;
+    font-weight: normal;
+    color: white;
+    margin-top: -40px;
+    margin-left: 5px;
+    margin-bottom: 40px
+}
+
+#resultado {
+    text-align: right;
+    padding: 20px 5px;
+    margin-bottom: 12px;
+    font-size: 1.2em;
+    color: white;
+    font-weight: normal;;
+    height: 15px;
+    max-width: 320px;
+}
+.botao, .botaonum {
+    width: 80px;
+    height: 60px;
+    color: var(--cor1);
+    background-color: var(--cor5);
+    border-radius: 5px;
+    border: none;
+    font-size: 0.8em;
+}
+
+.botaonum {
+    background-color: var(--cor4);
+}
+
+.botao:hover {
+    background-color: var(--cor4);
+}
+.botaonum:hover {
+    background-color: var(--cor5);
+}
+
