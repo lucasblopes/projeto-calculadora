@@ -59,7 +59,7 @@ div#calculadora > h2 {
     color: white;
     font-weight: normal;;
     height: 15px;
-    max-width: 320px;
+    max-width: 300px;
 }
 .botao, .botaonum {
     width: 80px;
